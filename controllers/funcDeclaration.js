@@ -15,7 +15,7 @@ module.exports = {
       res.status(400).json({ message: "Include the task" });
     } else {
       tasks.push(newTask);
-      res.json(tasks);
+      res.status(201).json(tasks);
     }
     fs.writeFile("taskList.json", `${JSON.stringify(tasks)}`, data => {});
   },
