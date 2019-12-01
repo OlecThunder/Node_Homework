@@ -30,7 +30,7 @@ module.exports = {
   },
 
   getTasks: (req, res) => {
-    req.params.id !== undefined
+    return req.params.id !== undefined
       ? res
           .status(200)
           .json(tasks.filter(task => task.id === parseInt(req.params.id)))
