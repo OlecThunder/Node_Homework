@@ -1,1 +1,65 @@
-[{"id":1,"task":"Use helmet","finishTime":"22:00","owner":"sandra","done":true},{"id":3,"task":"Go to the gym","finishTime":"20:00","owner":"Alex","done":true},{"id":1575207804249,"task":"Learn mongo","finishTime":"22:00","owner":"Alex","done":false}]
+[
+  {
+    "id": 1575287019528,
+    "task": "Create express api",
+    "finishTime": "07:00",
+    "owner": "Sandra",
+    "done": true
+  },
+  {
+    "id": 1575287038260,
+    "task": "Add api routes",
+    "finishTime": "08:00",
+    "owner": "Alex",
+    "done": true
+  },
+  {
+    "id": 1575287070131,
+    "task": "Drink a coffee",
+    "finishTime": "08:30",
+    "owner": "Alex",
+    "done": false
+  },
+  {
+    "id": 1575287104301,
+    "task": "Add all functionality & structure",
+    "finishTime": "08:40",
+    "owner": "Alex",
+    "done": true
+  },
+  {
+    "id": 1575287117218,
+    "task": "Add helmet",
+    "finishTime": "13:00",
+    "owner": "Alex",
+    "done": true
+  },
+  {
+    "id": 1575287150506,
+    "task": "Get dinner",
+    "finishTime": "13:20",
+    "owner": "Alex",
+    "done": true
+  },
+  {
+    "id": 1575287186191,
+    "task": "Add JOI & best practices reading",
+    "finishTime": "15:00",
+    "owner": "Alex",
+    "done": true
+  },
+  {
+    "id": 1575287197028,
+    "task": "Add validation",
+    "finishTime": "18:00",
+    "owner": "Alex",
+    "done": true
+  },
+  {
+    "id": 1575287240827,
+    "task": "TASK NAME",
+    "finishTime": "00:00",
+    "owner": "OWNER",
+    "done": false
+  }
+]

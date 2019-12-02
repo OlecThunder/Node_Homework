@@ -10,7 +10,7 @@ const {
   markUndone,
   changeTaskInfo
 } = require("../controllers/funcDeclaration");
-let tasks = JSON.parse(fs.readFileSync("taskList.json", "utf-8"));
+let tasks = JSON.parse(fs.readFileSync("taskList.json", "utf-8")) || [];
 
 router
   .route("/")
