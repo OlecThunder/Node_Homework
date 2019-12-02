@@ -1,6 +1,6 @@
 # Node_Homework
 This is my Node.js homework, thanks for reading this.
-In this project i built a task list API, in which i use users.json file as data base.
+In this project i built a task list API, in which i use taskList.json file as data base.
 I have such routes: 
 ~ GET (/users) - get all users
 ~ GET (/users/:id) - get certain user
